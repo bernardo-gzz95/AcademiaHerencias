@@ -1,7 +1,7 @@
 import ejemplos.de.herencia.Bicicleta;
 import ejemplos.de.herencia.Vehiculo;
 
-public class Main {
+public class HerenciaMain {
 
     public static void main(String[] args) {
 

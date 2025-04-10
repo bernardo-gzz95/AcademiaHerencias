@@ -5,12 +5,15 @@ public class Vehiculo {
     int año;
     int kilometraje = 0;
 
+
+
     public Vehiculo(String marca,int año){
         this.marca = marca;
         this.año = año;
     }
-
-    public Vehiculo(String marca, int año,int kilometraje){
+    
+    //Aqui observamos una sobrecarga de metodo
+    public Vehiculo(String marca,int año, int kilometraje){
         this.marca = marca;
         this.año = año;
         this.kilometraje = kilometraje;
